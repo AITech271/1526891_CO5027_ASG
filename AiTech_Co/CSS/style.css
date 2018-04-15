@@ -2,7 +2,7 @@
     border-style: none;
     border-color: inherit;
     border-width: 0px;
-    margin: 0px;
+    margin: 0px 0px 0px 14px;
     padding: 0px;
 }
 
@@ -195,4 +195,14 @@ section.section1-product img {
 #map {
     width: 720px;
     height: 487px;
+}
+
+#Login-block {
+    float: left;
+    width: 45%;
+}
+
+#AccountReg-block {
+    float:right;
+    width: 45%;
 }
