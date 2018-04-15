@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #f0f0f0;
+    font: 14px/20px Arial, San-Serif;
+    color: #555;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 180%;
+    line-height: 120%;
+    padding: 5% 0;
+}
+
+h2 {
+    text-decoration: underline;
+    line-height: 280%;
+    padding-left: 2%;   
+}
+
+h3 {
+    line-height: 110%;
+    padding: 5% 0;
+}
+
+p {
+    padding: 1%;
+}
+
+img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    
+}
+
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+header {
+    background: #405580;
+    width: 100%;
+    height: 86px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 0.90;
+}
+
+#logo img {
+    margin: 20px;
+    float: left;
+    width: 300px;
+    height: 60px;
+}
+nav {
+    float: right;
+    padding: 35px 20px 20px 0;
+}
+
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+}
+
+a:hover #menu-icon {
+    border-radius: 4px 4px 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+.current {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.Main-Picture img {
+    width: 100%;
+    margin-top: 110%;
+}
+
+section {
+    width: 20%;
+    float: left;
+    margin: 2% 5%;
+    text-align: center;
+}
+
+article {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    padding: 4%;
+}
+
+aside {
+    float: left;
+    margin: 0 auto;
+    width: 35%;
+    height: auto;
+    padding: 3%;
+    
+}
+
+.aside-text {
+    clear: both;
+    padding-left: 3%;
+}
+
+footer {
+    background: #333333;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.90;
+}
+
+footer p, h3 {
+    color: #FFF;
+}
+
+footer p a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul.social li {
+    display: inline;
+}
+
+ul.social li img {
+    height: 50px;
+}
+
+ul.payment-option li {
+    display: inline;
+}
+
+ul.payment-option li img {
+    height: 50px;
+    width: 50px;
+}
+
+footer.second {
+    border-top: 1px solid #4D4E5D;
+    background-color: #333333;
+    max-height: 50px;
+    text-align: center;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+#container h1 {
+    text-align: left;
+}
+
+section.section1-product img {
+    height: 100px;
+    width: 100px;
+}

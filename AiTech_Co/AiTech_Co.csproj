@@ -94,11 +94,40 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Payment_Option\American.jpg" />
+    <Content Include="Images\Payment_Option\Mastercard.jpg" />
+    <Content Include="Images\Payment_Option\Paypal.jpg" />
+    <Content Include="Images\Payment_Option\Visa.jpg" />
+    <Content Include="Images\Products\Capacitors\Electrolytic_Capacitor.jpg" />
+    <Content Include="Images\Products\Capacitors\Radial_400V.jpg" />
+    <Content Include="Images\Products\Capacitors\RS101G_DC.jpg" />
+    <Content Include="Images\Products\Diode\1N5405.jpg" />
+    <Content Include="Images\Products\Diode\BY55050.jpg" />
+    <Content Include="Images\Products\Diode\Rectifier.jpg" />
+    <Content Include="Images\Products\Other_Hardwares\BA5996_Semi_Conductor.jpg" />
+    <Content Include="Images\Products\Other_Hardwares\Copper_PCB.jpg" />
+    <Content Include="Images\Products\Other_Hardwares\Digital_Multimeter.jpg" />
+    <Content Include="Images\Products\Other_Hardwares\LED_Lights.jpg" />
+    <Content Include="Images\Products\Resistors\1K_Ohm.jpg" />
+    <Content Include="Images\Products\Resistors\1W18R.jpg" />
+    <Content Include="Images\Products\Resistors\300Ohm.jpg" />
+    <Content Include="Images\Products\Transistors\2N3904.jpg" />
+    <Content Include="Images\Products\Transistors\C94_NPN.jpg" />
+    <Content Include="Images\Slider.jpg" />
+    <Content Include="Images\Social_Media\fb.jpg" />
+    <Content Include="Images\Social_Media\googleplus.jpg" />
+    <Content Include="Images\Social_Media\Ig.png" />
+    <Content Include="Pages\About.aspx" />
+    <Content Include="Pages\Contact.aspx" />
+    <Content Include="CSS\style.css" />
+    <Content Include="Default.aspx" />
     <Content Include="Images\Company_Logo.png" />
+    <Content Include="Pages\Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Master.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -108,22 +137,61 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Pages\Products.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="CSS\" />
-    <Folder Include="Images\Payment_Option\" />
-    <Folder Include="Images\Products\" />
-    <Folder Include="Images\Social_Media\" />
     <Folder Include="JS\" />
     <Folder Include="Models\" />
   </ItemGroup>
