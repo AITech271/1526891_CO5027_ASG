@@ -8,6 +8,8 @@
         <h1>Administrator Account</h1>
         <p>Welcome to the Admin Panel !</p>
         <p>&nbsp;</p>
+        <p><a href="Add.aspx">Add.aspx</a></p>
+        <p>&nbsp;</p>
         <p>
             <asp:Button ID="BtnLogOut" runat="server" Height="28px" OnClick="BtnLogOut_Click" Text="Log-Out" Width="161px" />
         </p>

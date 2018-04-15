@@ -142,7 +142,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Add.aspx" />
     <Content Include="Admin\Index.aspx" />
+    <Content Include="Admin\List.aspx" />
+    <Content Include="Admin\UploadImage.aspx" />
     <Content Include="Images\Map.png" />
     <Content Include="Images\Payment_Option\American.jpg" />
     <Content Include="Images\Payment_Option\Mastercard.jpg" />
@@ -199,6 +202,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -212,6 +222,20 @@
     </Compile>
     <Compile Include="Admin\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UploadImage.aspx.cs">
+      <DependentUpon>UploadImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UploadImage.aspx.designer.cs">
+      <DependentUpon>UploadImage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -264,6 +288,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="ProductImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

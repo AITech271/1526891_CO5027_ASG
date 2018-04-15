@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Microsoft.AspNet.Identity;
 
 namespace AiTech_Co.Admin
 {
@@ -16,7 +17,8 @@ namespace AiTech_Co.Admin
 
         protected void BtnLogOut_Click(object sender, EventArgs e)
         {
-
+            HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+            Response.Redirect("~/Pages/Login.aspx");
         }
     }
 }
