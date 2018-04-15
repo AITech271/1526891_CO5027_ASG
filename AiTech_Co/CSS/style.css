@@ -180,6 +180,7 @@ footer.second {
 #container {
     width: 80%;
     margin: auto;
+    height: 866px;
 }
 
 #container h1 {
@@ -189,4 +190,9 @@ footer.second {
 section.section1-product img {
     height: 100px;
     width: 100px;
+}
+
+#map {
+    width: 720px;
+    height: 487px;
 }

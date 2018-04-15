@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Map.png" />
     <Content Include="Images\Payment_Option\American.jpg" />
     <Content Include="Images\Payment_Option\Mastercard.jpg" />
     <Content Include="Images\Payment_Option\Paypal.jpg" />
@@ -117,6 +118,7 @@
     <Content Include="Images\Social_Media\fb.jpg" />
     <Content Include="Images\Social_Media\googleplus.jpg" />
     <Content Include="Images\Social_Media\Ig.png" />
+    <Content Include="JS\Map.js" />
     <Content Include="Pages\About.aspx" />
     <Content Include="Pages\Contact.aspx" />
     <Content Include="CSS\style.css" />
@@ -138,6 +140,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Pages\Products.aspx" />
+    <Content Include="Properties\Map.png" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
@@ -192,7 +195,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="JS\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

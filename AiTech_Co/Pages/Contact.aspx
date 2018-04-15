@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="AiTech_Co.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../CSS/style.css" rel="stylesheet" runat="server" />
+    <style type="text/css">
+        #form1 {
+            height: 2300px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
@@ -30,7 +35,16 @@
         <p>
             <asp:Literal ID="LitMsgError" runat="server"></asp:Literal>
         </p>
-        <p>&nbsp;</p>
+        <h1>Our Location</h1>
+        <p><b>AITECH Co.</b><br />+673 2345678<br />Plaza Abdul Razak<br />Jalan Laksamana Abdul Razak<br />Bandar Seri Begawan BA 1712<br />Email: aitech271@gmail.com</p><br />
+        <div id="map">
+            <script src="../JS/Map.js"></script>
+            <script async defer
+                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMbQSF0HDT8zXAPbwS06xjp3Pwf4WRbj0&callback=initMap">
+            </script>
+        </div>
+        <h1>Static Map</h1>
+        <img src="../Images/Map.png" runat="server" />
     </div>
     </form>
 </asp:Content>
