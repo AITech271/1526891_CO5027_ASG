@@ -57,20 +57,20 @@ namespace AiTech_Co
 
                 if (userRoles.Equals("Admin"))
                 {
-                    Response.Redirect("~/Admin/index.aspx");
+                    Response.Redirect("~/Admin/Index.aspx");
                 }
             }
         }
 
         protected void BtnReg_Click(object sender, EventArgs e)
         {
-            var userStore = new UserStore<IdentityUser>(identityDbContext);
-            var manager = new UserManager<IdentityUser>(userStore);
-            var user = new IdentityUser() { UserName = TxtRegUsername.Text };
-
+            
             var identityDbContext = new IdentityDbContext("IdentityConnection");
             var roleStore = new RoleStore<IdentityRole>(identityDbContext);
             var roleManager = new RoleManager<IdentityRole>(roleStore);
+            var userStore = new UserStore<IdentityUser>(identityDbContext);
+            var manager = new UserManager<IdentityUser>(userStore);
+            var user = new IdentityUser() { UserName = TxtRegUsername.Text };
 
 
             IdentityRole adminRole = new IdentityRole("Registereduser");

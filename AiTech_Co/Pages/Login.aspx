@@ -11,7 +11,7 @@
                 <asp:TextBox ID="TxtLoginUsername" runat="server" Width="143px"></asp:TextBox>
             </p>
             <p>Password&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TxtLoginPassword" runat="server" Width="149px"></asp:TextBox>
+                <asp:TextBox ID="TxtLoginPassword" runat="server" Width="149px" TextMode="Password"></asp:TextBox>
             </p>
             <p>
                 <asp:Button ID="BtnLogIn" runat="server" Height="32px" Text="Log-In" Width="150px" OnClick="BtnLogIn_Click" />
@@ -27,10 +27,10 @@
                 <asp:TextBox ID="TxtRegUsername" runat="server" Width="170px"></asp:TextBox>
             </p>
             <p>Password&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TxtRegPassword" runat="server" Height="16px" Width="172px"></asp:TextBox>
+                <asp:TextBox ID="TxtRegPassword" runat="server" Height="16px" Width="172px" TextMode="Password"></asp:TextBox>
             </p>
             <p>Confirm Password&nbsp;&nbsp;
-                <asp:TextBox ID="TxtRegConfirmPass" runat="server" Width="147px"></asp:TextBox>
+                <asp:TextBox ID="TxtRegConfirmPass" runat="server" Width="147px" TextMode="Password"></asp:TextBox>
             </p>
             <p>&nbsp;</p>
             <p>
