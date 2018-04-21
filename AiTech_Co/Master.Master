@@ -19,9 +19,8 @@
                     <ul>
                         <li><a href="~/Default.aspx" class="current" runat="server">Home</a></li>
                         <li><a href="~/Pages/About.aspx" class="current" runat="server">About</a></li>
-                        <li><a href="~/Pages/Products.aspx" class="current" runat="server">Products</a></li>
                         <li><a href="~/Pages/Contact.aspx" class="current" runat="server">Contact</a></li>
-                        <li><a href="~/Pages/Login.aspx" class="current" runat="server">Log-In</a></li>      
+                        <li><a href="~/login.aspx" class="current" runat="server">Log-In</a></li>      
                     </ul>
             </nav>
         </header>

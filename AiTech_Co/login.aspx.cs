@@ -46,9 +46,9 @@ namespace AiTech_Co
                 user, DefaultAuthenticationTypes.ApplicationCookie);
             authenticationManager.SignIn(new AuthenticationProperties() { }, userIdentity);
 
-            if (Request.QueryString["~/login.aspx"] != null)
+            if (Request.QueryString["~/Pages/Login.aspx"] != null)
             {
-                Response.Redirect(Request.QueryString["~/login.aspx"]);
+                Response.Redirect(Request.QueryString["~/Pages/Login.aspx"]);
             }
 
             else

@@ -5,54 +5,5 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
             <!--Main Slider-->
                 <img src="~/Images/Slider.jpg" class="Main-Picture" runat="server"/>
-            <!--Section-->
-            <h1 class="auto-style2">Products</h1><br />
-            <section>
-                <h1>300 Ohm Resistor</h1>
-                <img src="~/Images/Products/Resistors/300Ohm.jpg" runat="server" class="section1-product"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec rhoncus lorem, at egestas magna. Curabitur non eleifend orci. Maecenas quis nibh elit. Pellentesque sodales neque nec libero convallis, dignissim posuere purus iaculis. Nullam congue lorem vitae luctus pulvinar.</p>
-                <h3>BND 0.00</h3>
-            </section>
-            <section>
-                <h1>C94_NPN Transistor</h1>
-                <img src="~/Images/Products/Transistors/C94_NPN.jpg" runat="server" class="section1-product"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec rhoncus lorem, at egestas magna. Curabitur non eleifend orci. Maecenas quis nibh elit. Pellentesque sodales neque nec libero convallis, dignissim posuere purus iaculis. Nullam congue lorem vitae luctus pulvinar.</p>
-                <h3>BND 0.00</h3>
-            </section>
-            <section>
-                <h1>BY55050 Diode</h1>
-                <img src="~/Images/Products/Diode/BY55050.jpg" runat="server" class="section1-product"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec rhoncus lorem, at egestas magna. Curabitur non eleifend orci. Maecenas quis nibh elit. Pellentesque sodales neque nec libero convallis, dignissim posuere purus iaculis. Nullam congue lorem vitae luctus pulvinar.</p>
-                <h3>BND 0.00</h3>
-            </section>
-            <div class="clear"></div>
-            <!--Second Section - Featured Product-->
-            <article class="auto-style1">
-                <img src="~/Images/Products/Other_Hardwares/Digital_Multimeter.jpg" runat="server" />
-            </article>
-            <%--<aside>--%>
-             <aside>
-                <h2>Featured Product</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec rhoncus lorem, at egestas magna. Curabitur non eleifend orci. Maecenas quis nibh elit. Pellentesque sodales neque nec libero convallis, dignissim posuere purus iaculis. Nullam congue lorem vitae luctus pulvinar. Donec iaculis consequat ligula. Sed justo risus, dictum quis iaculis ac, aliquam sed massa. Nunc finibus arcu nec ligula dictum, eget accumsan nulla fermentum.
-                </p>
-                <h3>BND 0.00</h3>
-            </aside>
-            <div class="clear"></div>
-            <!--Section 2-->
-            <section>
-                <h1>Semi-Conductors</h1>
-                <img src="~/Images/Products/Other_Hardwares/BA5996_Semi_Conductor.jpg" runat="server"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec rhoncus lorem, at egestas magna. Curabitur non eleifend orci.</p>
-            </section>
-            <section>
-                <h1>Diodes</h1>
-                <img src="~/Images/Products/Diode/BY55050.jpg" runat="server" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec rhoncus lorem, at egestas magna. Curabitur non eleifend orci.</p>
-            </section>
-            <section>
-                <h1>Transistors</h1>
-                <img src="~/Images/Products/Transistors/2N3904.jpg" runat="server" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec rhoncus lorem, at egestas magna. Curabitur non eleifend orci.</p>
-            </section>
+            <!--Section--> 
 </asp:Content>

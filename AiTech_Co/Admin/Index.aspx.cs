@@ -18,7 +18,7 @@ namespace AiTech_Co.Admin
         protected void BtnLogOut_Click(object sender, EventArgs e)
         {
             HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            Response.Redirect("~/Pages/Login.aspx");
+            Response.Redirect("~/login.aspx");
         }
     }
 }
