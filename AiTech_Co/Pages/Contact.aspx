@@ -24,21 +24,21 @@
     <div id="container">
         <h1>Contact Us</h1>
         <p>Name
-            <asp:TextBox ID="TxtName" runat="server" Width="319px" CssClass="auto-style1" Height="39px"></asp:TextBox>
+            <asp:TextBox ID="TxtName" runat="server" Width="319px" CssClass="auto-style1" Height="39px" BorderWidth="1px"></asp:TextBox>
              <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="Txtname" ErrorMessage="*Name is required"></asp:RequiredFieldValidator>
         </p>
-        <p>Email<asp:TextBox ID="TxtEmail" runat="server" Width="318px" CssClass="auto-style2" Height="39px"></asp:TextBox>
+        <p>Email<asp:TextBox ID="TxtEmail" runat="server" Width="318px" CssClass="auto-style2" Height="39px" BorderWidth="1px"></asp:TextBox>
             <asp:RequiredFieldValidator ID="reqFieldName" runat="server" ControlToValidate="TxtEmail" ErrorMessage="
                          * Email is required" BackColor="White"></asp:RequiredFieldValidator>
                       <asp:RegularExpressionValidator ID="RegExprChkEMail" runat="server" ControlToValidate="TxtEmail" ErrorMessage="* Invalid email format" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
         </p>
         <p>Subject
-            <asp:TextBox ID="TxtSubject" runat="server" Width="315px" CssClass="auto-style3" Height="36px"></asp:TextBox>
+            <asp:TextBox ID="TxtSubject" runat="server" Width="315px" CssClass="auto-style3" Height="36px" BorderWidth="1px"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtSubject" ErrorMessage="* Subject is required."></asp:RequiredFieldValidator>
         </p>
         <p>Your Message</p>
         <p>
-            <asp:TextBox ID="TxtMsg" runat="server" Height="174px" Width="427px" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="TxtMsg" runat="server" Height="174px" Width="427px" TextMode="MultiLine" BorderWidth="1px"></asp:TextBox>
         </p>
         <p>
              <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TxtMsg" ErrorMessage="* Your Message is required !"></asp:RequiredFieldValidator>
