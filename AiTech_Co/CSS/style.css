@@ -2,7 +2,7 @@
     border-style: none;
     border-color: inherit;
     border-width: 0px;
-    margin: 0px 0px 0px 14px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
 }
 
@@ -43,14 +43,12 @@ img {
 
 
 a {
-    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
     color: #FFF;
-    text-decoration: underline;
 }
 
 header {
@@ -73,18 +71,6 @@ nav {
     float: right;
     padding: 35px 20px 20px 0;
 }
-
-#menu-icon {
-    display: hidden;
-    width: 40px;
-    height: 40px;
-    background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
-}
-
-a:hover #menu-icon {
-    border-radius: 4px 4px 0 0;
-}
-
 ul {
     list-style: none;
 }
@@ -97,7 +83,6 @@ nav ul li {
 
 .current {
     color: #FFF;
-    text-decoration: underline;
 }
 
 .Main-Picture img {
@@ -106,22 +91,28 @@ nav ul li {
 }
 
 section {
-    width: 20%;
+    width: 23%;
     float: left;
-    margin: 2% 5%;
+    margin: 2% 3%;
     text-align: center;
+}
+
+section img {
+    width: 300px;
+    height: 300px;
 }
 
 article {
     float: left;
     margin: 0 auto;
     width: 50%;
-    height: auto;
+    height: 320px;
+    width: 480px;
     padding: 4%;
 }
 
 aside {
-    float: left;
+    float: right;
     margin: 0 auto;
     width: 35%;
     height: auto;
@@ -201,5 +192,18 @@ section.section1-product img {
 
 #AccountReg-block {
     float:right;
-    width: 45%;
+    width: 50%;
+}
+
+.Admin-Link a {
+    color: aliceblue;
+} 
+
+#About-Pic {
+    background-color: #405580;
+    width: 550px;
+}
+
+.About-Text {
+    text-align:justify;
 }

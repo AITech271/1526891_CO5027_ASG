@@ -7,11 +7,11 @@
         <div id="container">
         <h1>Upload Product Image</h1>
             <p>
-                <asp:FileUpload ID="ImageFileUploadControl" runat="server" Width="326px" />
+                <asp:FileUpload ID="ImageFileUploadControl" runat="server" Width="462px" Height="50px" />
             </p>
             <p>&nbsp;</p>
             <p>
-                <asp:Button ID="BtnUpload" runat="server" Text="Upload" OnClick="BtnUpload_Click" />
+                <asp:Button ID="BtnUpload" runat="server" Text="Upload" OnClick="BtnUpload_Click" Height="41px" Width="271px" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" />
             </p>
             <p>&nbsp;</p>
             <p>
@@ -20,7 +20,7 @@
             <p>
                 &nbsp;</p>
             <p>
-                <a href="List.aspx">List.aspx</a></p>
+                <a href="List.aspx" class="Admin-Link">List Product</a></p>
             <p>
                 &nbsp;</p>
     </div>

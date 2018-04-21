@@ -29,10 +29,10 @@
                 <section>
                     <h3>Payment Options</h3>
                     <ul class="payment-option">
-                        <li><img src="Images/Payment_Option/Mastercard.jpg" runat="server"/></li>
-                        <li><img src="Images/Payment_Option/Visa.jpg" runat="server" /></li>
-                        <li><img src="Images/Payment_Option/American.jpg" runat="server"/></li>
-                        <li><img src="Images/Payment_Option/Paypal.jpg" runat="server"/></li>
+                        <li><img src="~/Images/Payment_Option/Mastercard.jpg" runat="server"/></li>
+                        <li><img src="~/Images/Payment_Option/Visa.jpg" runat="server" /></li>
+                        <li><img src="~/Images/Payment_Option/American.jpg" runat="server"/></li>
+                        <li><img src="~/Images/Payment_Option/Paypal.jpg" runat="server"/></li>
                     </ul>
                 </section>
                 <section>

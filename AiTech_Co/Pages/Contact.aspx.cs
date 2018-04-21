@@ -24,6 +24,7 @@ namespace AiTech_Co
             MailMessage msg = new MailMessage("aitech271@gmail.com", "aitech271@gmail.com");
             msg.Subject = TxtSubject.Text;
             msg.Body = TxtMsg.Text;
+            
 
             //settings sepcific to the mail service, e.g. server location, port number and that ssl is required
             smtpClient.Host = "smtp.gmail.com";

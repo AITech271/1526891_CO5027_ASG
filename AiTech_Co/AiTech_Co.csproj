@@ -184,6 +184,7 @@
     <Content Include="Master.Master" />
     <Content Include="Admin\Admin.Master" />
     <Content Include="Admin\Web.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
