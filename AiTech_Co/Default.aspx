@@ -6,4 +6,27 @@
             <!--Main Slider-->
                 <img src="~/Images/Slider.jpg" class="Main-Picture" runat="server"/>
             <!--Section--> 
+    <div id="container">
+        <h1>Products</h1>
+
+        <br />
+        <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
+    
+            <ItemTemplate>
+                <div class="product-list">
+                <ul>
+                     <li>
+                        <a href="<%#Eval("ProductId","Pages/Products.aspx?id={0}") %>"><img src="ProductImages/<%#Eval("ProductId" )%>.jpg" height="300" /><br /></a><br />
+                        <h1><a href="<%#Eval("ProductId","Pages/Products.aspx?id={0}") %>"><%#Eval("ProductName") %></a><br /></h1>
+                        <p><%#Eval("ProductDesc") %></p><br />
+                         <h3>PRICE</h3><p><%#Eval("Price") %></p>
+                    </li>
+                </ul>
+                </div>
+            </ItemTemplate>
+           
+        </asp:Repeater>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_1526891_co5027_aitechcoConnectionString %>" SelectCommand="SELECT * FROM [tblProduct]"></asp:SqlDataSource>
+
+    </div>
 </asp:Content>

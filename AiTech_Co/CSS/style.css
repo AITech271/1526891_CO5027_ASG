@@ -168,7 +168,7 @@ footer.second {
 #container {
     width: 80%;
     margin: auto;
-    height: 866px;
+    height: auto;
 }
 
 #container h1 {
@@ -206,4 +206,9 @@ section.section1-product img {
 
 .About-Text {
     text-align:justify;
+}
+
+.product-list ul li {
+    float: left;
+    width: 30%;
 }
