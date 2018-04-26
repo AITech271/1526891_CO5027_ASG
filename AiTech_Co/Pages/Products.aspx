@@ -1,16 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="AiTech_Co.Products" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../CSS/style.css" rel="stylesheet" runat="server" />
-
-    <style type="text/css">
-        #product-left img {
-            float: left;
-        }
-
-        #Product-right {
-            float: right;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
@@ -41,7 +31,7 @@
                 </InsertItemTemplate>
                 <ItemTemplate>
                     <div id="product-left">
-                        <a href="<%#Eval("ProductId","Pages/Products.aspx?id={0}") %>"><img src="/ProductImages/<%#Eval("ProductId" )%>.jpg" height="300" /><br /></a><br />
+                        <a href="<%#Eval("ProductId","/Products.aspx?id={0}") %>"> <asp:Image ID="Image1" runat="server" ImageUrl='<%#"~/ProductImages/" + Eval("ProductId") + ".jpg" %>' /><br /></a><br />
                     </div>
                     <br />
                     <div id="Product-right">

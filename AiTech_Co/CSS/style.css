@@ -165,6 +165,10 @@ footer.second {
     text-align: center;
 }
 
+footer.second a {
+   color: white;
+}
+
 #container {
     width: 80%;
     margin: auto;
@@ -212,3 +216,9 @@ section.section1-product img {
     float: left;
     width: 30%;
 }
+
+.product-list ul li a {
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: navy;
+}
+

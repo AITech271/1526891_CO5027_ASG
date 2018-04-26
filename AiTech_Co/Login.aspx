@@ -1,23 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="AiTech_Co.Login" %>
+﻿ <%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="AiTech_Co.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/style.css" rel="stylesheet" runat="server"/>
-    <style type="text/css">
-        .auto-style1 {
-            margin-right: 0px;
-        }
-        .auto-style2 {
-            margin-left: 4px;
-        }
-        .auto-style3 {
-            margin-left: 42px;
-        }
-        .auto-style4 {
-            margin-left: 49px;
-        }
-        .auto-style5 {
-            height: 758px;
-        }
-    </style>
+    <link href="CSS/Login.css" rel="stylesheet" runat="server"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">

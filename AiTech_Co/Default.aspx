@@ -16,10 +16,11 @@
                 <div class="product-list">
                 <ul>
                      <li>
-                        <a href="<%#Eval("ProductId","Pages/Products.aspx?id={0}") %>"><img src="ProductImages/<%#Eval("ProductId" )%>.jpg" height="300" /><br /></a><br />
+                        <a href="<%#Eval("ProductId","Pages/Products.aspx?id={0}") %>">
+                            <asp:Image ID="Image1" runat="server" ImageUrl='<%#"~/ProductImages/" + Eval("ProductId") + ".jpg" %>' /><br /></a><br />
                         <h1><a href="<%#Eval("ProductId","Pages/Products.aspx?id={0}") %>"><%#Eval("ProductName") %></a><br /></h1>
                         <p><%#Eval("ProductDesc") %></p><br />
-                         <h3>PRICE</h3><p><%#Eval("Price") %></p>
+                         <h4>PRICE</h4><p><%#Eval("Price") %></p>
                     </li>
                 </ul>
                 </div>

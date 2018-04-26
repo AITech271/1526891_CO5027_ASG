@@ -146,6 +146,11 @@
     <Content Include="Admin\Index.aspx" />
     <Content Include="Admin\List.aspx" />
     <Content Include="Admin\UploadImage.aspx" />
+    <Content Include="CSS\Contact.css" />
+    <Content Include="CSS\Index.css" />
+    <Content Include="CSS\List.css" />
+    <Content Include="CSS\Login.css" />
+    <Content Include="CSS\Product.css" />
     <Content Include="Images\Map.png" />
     <Content Include="Images\Payment_Option\American.jpg" />
     <Content Include="Images\Payment_Option\Mastercard.jpg" />
@@ -195,6 +200,14 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Pages\Products.aspx" />
+    <Content Include="ProductImages\10.jpg" />
+    <Content Include="ProductImages\11.jpg" />
+    <Content Include="ProductImages\12.jpg" />
+    <Content Include="ProductImages\15.jpg" />
+    <Content Include="ProductImages\16.jpg" />
+    <Content Include="ProductImages\17.jpg" />
+    <Content Include="ProductImages\8.jpg" />
+    <Content Include="ProductImages\9.jpg" />
     <Content Include="Properties\Map.png" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
@@ -289,7 +302,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="ProductImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

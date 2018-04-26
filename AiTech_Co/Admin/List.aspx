@@ -1,11 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="List.aspx.cs" Inherits="AiTech_Co.Admin.List" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <link href="../CSS/style.css" rel="stylesheet" runat="server" />
-    <style type="text/css">
-        .auto-style1 {
-            margin-left: 0px;
-        }
-    </style>
+    <link href="../CSS/List.css" rel="stylesheet" runat="server"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
     <form id="form1" runat="server">

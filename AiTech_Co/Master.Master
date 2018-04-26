@@ -55,6 +55,11 @@
                 </section>
                 </footer>
             <footer class="second">
+                <a href="http://validator.w3.org/check?url=referer">Validate HTML  |  </a>
+                <a href="https://jigsaw.w3.org/css-validator/">Validate CSS  |  </a>
+                <a href="https://achecker.ca/checker/index.php">Check WCAG  |  </a>
+                <a href="~/Admin/Index.aspx">Admin Account</a>
+
                 <p>&copy; Copyright AITECH Co. 2018 - All Rights Reserved</p>
             </footer>
     </body>

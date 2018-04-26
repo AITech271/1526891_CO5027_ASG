@@ -1,23 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="AiTech_Co.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../CSS/style.css" rel="stylesheet" runat="server" />
-    <style type="text/css">
-        #form1 {
-            height: 2300px;
-        }
-        .auto-style1 {
-            margin-left: 51px;
-        }
-        .auto-style2 {
-            margin-left: 58px;
-        }
-        .auto-style3 {
-            margin-left: 44px;
-        }
-        .auto-style4 {
-            height: 0px;
-        }
-    </style>
+    <link href="../CSS/Contact.css" rel="stylesheet" runat="server" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">

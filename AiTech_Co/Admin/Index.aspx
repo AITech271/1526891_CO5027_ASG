@@ -1,14 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="AiTech_Co.Admin.Index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <link href="../CSS/style.css" rel="stylesheet" runat="server"/>
-    <style type="text/css">
-        .auto-style1 {
-            margin-left: 2px;
-        }
-    .auto-style2 {
-        margin-left: 15px;
-    }
-    </style>
+    <link href="../CSS/Index.css" rel="stylesheet" runat="server" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
     <form id="form1" runat="server" class="auto-style2">
