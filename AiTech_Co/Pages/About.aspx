@@ -6,7 +6,7 @@
     <div id="container">
         <h1>About</h1>
         <div id="About-Pic">
-            <img src="../Images/Company_Logo.png" runat="server"/>
+            <img src="../Images/Company_Logo.png" runat="server" alt="Company Logo"/>
         </div>
         
         <br />
