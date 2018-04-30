@@ -222,3 +222,7 @@ section.section1-product img {
    color: navy;
 }
 
+.default-product-image {
+    height: 300px;
+}
+

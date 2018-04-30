@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="AiTech_Co.Products" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../CSS/style.css" rel="stylesheet" runat="server" />
+    <link href="../CSS/Product.css" rel="stylesheet" type="text/css" runat="server"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
@@ -37,7 +38,7 @@
                     <div id="Product-right">
                         <h1><%#Eval("ProductName") %></h1>
                         <br />
-                        Product Description:
+                        <h4>Product Description:</h4>
                         <p><%#Eval("ProductDesc") %></p>
                         <br />
                         <h4>PRICE</h4>

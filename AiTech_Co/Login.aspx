@@ -9,9 +9,10 @@
             <h1>Log-In</h1>
             <p>Username&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="TxtLoginUsername" runat="server" Width="246px" Height="30px" BorderWidth="1px"></asp:TextBox>
-            </p>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Username Required" ControlToValidate="TxtLoginUsername"></asp:RequiredFieldValidator>
             <p>Password&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="TxtLoginPassword" runat="server" Width="245px" TextMode="Password" CssClass="auto-style2" Height="30px" BorderWidth="1px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Password Required" ControlToValidate="TxtLoginPassword"></asp:RequiredFieldValidator>
             </p>
             <p>&nbsp;</p>
             <p>
@@ -20,7 +21,7 @@
             <p>
                 <asp:Literal ID="LitLogInMsg" runat="server"></asp:Literal>
             </p>
-            <h1>Account Registration</h1>
+            <!--<h1>Account Registration</h1>
             <p>Username&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="TxtRegUsername" runat="server" Width="245px" CssClass="auto-style3" Height="30px" BorderWidth="1px"></asp:TextBox>
             </p>
@@ -38,8 +39,7 @@
                 &nbsp;</p>
             <p>
                 <asp:Literal ID="LitRegMsg" runat="server"></asp:Literal>
-            </p>
-        
+            </p>-->
     </div>
 </form>
 </asp:Content>

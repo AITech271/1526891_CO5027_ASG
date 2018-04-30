@@ -1,7 +1,15 @@
-﻿ #product-left img {
+﻿        #product-left {
             float: left;
+            width: 40%;
+            padding-top: 40px;
         }
+
+#product-left img{
+  width: 500px;
+}
 
         #Product-right {
             float: right;
+            width: 55%;
+            padding-left: 10px;
         }
